@@ -11,5 +11,8 @@ namespace MyQuiz
         public string QuestionText { get; set; }
 
         public string[] Answers { get; set; }
+
+        public int CorrectAnswerIndex { get; set; }
+        
     }
 }
