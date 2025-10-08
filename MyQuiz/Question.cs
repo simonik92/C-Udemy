@@ -13,6 +13,10 @@ namespace MyQuiz
         public string[] Answers { get; set; }
 
         public int CorrectAnswerIndex { get; set; }
-        
+
+        public Question()
+        {
+            
+        }
     }
 }
