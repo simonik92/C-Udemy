@@ -8,5 +8,7 @@ namespace MyQuiz
 {
     internal class Question
     {
+        public string QuestionText { get; set; }
+
     }
 }
