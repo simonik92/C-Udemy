@@ -20,5 +20,10 @@ namespace MyQuiz
             Answers = answers;
             CorrectAnswerIndex = correctAnswerIndex;
         }
+
+        public bool IsCorrectAnswer(int choice)
+        {
+            return CorrectAnswerIndex == choice;
+        }
     }
 }
