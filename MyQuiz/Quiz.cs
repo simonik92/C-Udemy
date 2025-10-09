@@ -10,9 +10,9 @@ namespace MyQuiz
     {
         private Question[] questions;
 
-        public Quiz()
+        public Quiz(Question[] questions)
         {
-            
+            this.questions = questions;
         }
     }
 }
