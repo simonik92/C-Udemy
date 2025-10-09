@@ -8,5 +8,6 @@ namespace MyQuiz
 {
     internal class Quiz
     {
+        private Question[] questions;
     }
 }
